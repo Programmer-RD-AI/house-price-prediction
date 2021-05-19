@@ -1,0 +1,41 @@
+2021-05-19 20:11:18,544 INFO    MainThread:494276 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-19 20:11:18,544 INFO    MainThread:494276 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-05-19 20:11:18,545 INFO    MainThread:494276 [wandb_init.py:_log_setup():336] Logging user logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201118-1ks8fb6n/logs/debug.log
+2021-05-19 20:11:18,545 INFO    MainThread:494276 [wandb_init.py:_log_setup():337] Logging internal logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201118-1ks8fb6n/logs/debug-internal.log
+2021-05-19 20:11:18,545 INFO    MainThread:494276 [wandb_init.py:init():369] calling init triggers
+2021-05-19 20:11:18,545 INFO    MainThread:494276 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {}
+2021-05-19 20:11:18,545 INFO    MainThread:494276 [wandb_init.py:init():391] re-initializing run, found existing run on stack: c3tc458l
+2021-05-19 20:11:18,546 INFO    MainThread:494276 [wandb_run.py:finish():1208] finishing run ranuga-d/House-Price-Pred/c3tc458l
+2021-05-19 20:11:18,567 INFO    MainThread:494276 [jupyter.py:save_history():349] saving 132 cells to _session_history.ipynb
+2021-05-19 20:11:18,600 INFO    MainThread:494276 [wandb_run.py:_config_callback():787] config_cb ('_wandb', 'session_history') code/_session_history.ipynb None
+2021-05-19 20:11:18,671 INFO    MainThread:494276 [jupyter.py:save_ipynb():268] looking for notebook: 00-main.ipynb
+2021-05-19 20:11:19,147 INFO    MainThread:494276 [wandb_init.py:_jupyter_teardown():267] saved code and history
+2021-05-19 20:11:19,148 INFO    MainThread:494276 [wandb_init.py:_jupyter_teardown():268] cleaning up jupyter logic
+2021-05-19 20:11:19,148 INFO    MainThread:494276 [wandb_run.py:_atexit_cleanup():1535] got exitcode: 0
+2021-05-19 20:11:19,148 INFO    MainThread:494276 [wandb_run.py:_restore():1507] restore
+2021-05-19 20:11:24,150 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:11:29,250 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:11:34,351 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:11:39,452 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:11:44,552 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:11:49,653 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:11:54,754 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:11:59,854 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:12:04,955 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:12:10,056 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:12:15,156 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:12:20,257 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:12:25,358 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:12:30,459 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:12:35,559 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:12:40,660 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:12:45,761 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:12:50,861 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:12:55,962 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:13:01,063 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:13:06,163 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:13:11,264 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:13:16,365 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:13:21,466 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 20:13:26,567 INFO    MainThread:494276 [wandb_run.py:_wait_for_finish():1657] got exit ret: None

@@ -1,0 +1,60 @@
+2021-05-19 20:32:21,872 INFO    MainThread:558564 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-19 20:32:21,872 INFO    MainThread:558564 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-05-19 20:32:21,872 INFO    MainThread:558564 [wandb_init.py:_log_setup():336] Logging user logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_203221-2bn1hhdz/logs/debug.log
+2021-05-19 20:32:21,873 INFO    MainThread:558564 [wandb_init.py:_log_setup():337] Logging internal logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_203221-2bn1hhdz/logs/debug-internal.log
+2021-05-19 20:32:21,873 INFO    MainThread:558564 [wandb_init.py:_jupyter_setup():287] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fce03208b00>
+2021-05-19 20:32:21,873 INFO    MainThread:558564 [wandb_init.py:init():369] calling init triggers
+2021-05-19 20:32:21,873 INFO    MainThread:558564 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {}
+2021-05-19 20:32:21,873 INFO    MainThread:558564 [wandb_init.py:init():418] starting backend
+2021-05-19 20:32:21,873 INFO    MainThread:558564 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-05-19 20:32:21,920 INFO    MainThread:558564 [backend.py:ensure_launched():132] starting backend process...
+2021-05-19 20:32:21,959 INFO    MainThread:558564 [backend.py:ensure_launched():137] started backend process with pid: 559548
+2021-05-19 20:32:21,960 INFO    MainThread:558564 [wandb_init.py:init():423] backend started and connected
+2021-05-19 20:32:21,970 INFO    MainThread:558564 [wandb_init.py:init():465] updated telemetry
+2021-05-19 20:32:21,971 INFO    MainThread:558564 [wandb_init.py:init():484] communicating current version
+2021-05-19 20:32:23,180 INFO    MainThread:558564 [wandb_init.py:init():489] got version response 
+2021-05-19 20:32:23,180 INFO    MainThread:558564 [wandb_init.py:init():497] communicating run to backend with 30 second timeout
+2021-05-19 20:32:23,946 INFO    MainThread:558564 [wandb_init.py:init():522] starting run threads in backend
+2021-05-19 20:32:28,952 INFO    MainThread:558564 [wandb_run.py:_console_start():1565] atexit reg
+2021-05-19 20:32:28,953 INFO    MainThread:558564 [wandb_run.py:_redirect():1412] redirect: SettingsConsole.WRAP
+2021-05-19 20:32:28,953 INFO    MainThread:558564 [wandb_run.py:_redirect():1455] Wrapping output streams.
+2021-05-19 20:32:28,953 INFO    MainThread:558564 [wandb_run.py:_redirect():1479] Redirects installed.
+2021-05-19 20:32:28,953 INFO    MainThread:558564 [wandb_init.py:init():546] run started, returning control to user process
+2021-05-19 20:36:33,261 INFO    MainThread:558564 [wandb_init.py:_pause_backend():249] pausing backend
+2021-05-19 20:36:33,262 INFO    MainThread:558564 [jupyter.py:save_ipynb():268] looking for notebook: 00-main.ipynb
+2021-05-19 20:36:33,742 INFO    MainThread:558564 [wandb_init.py:_pause_backend():253] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fce0324f9b0>
+2021-05-19 20:36:33,769 INFO    MainThread:558564 [wandb_init.py:_resume_backend():258] resuming backend
+2021-05-19 20:36:33,771 INFO    MainThread:558564 [wandb_init.py:_pause_backend():249] pausing backend
+2021-05-19 20:36:33,771 INFO    MainThread:558564 [jupyter.py:save_ipynb():268] looking for notebook: 00-main.ipynb
+2021-05-19 20:36:34,331 INFO    MainThread:558564 [wandb_init.py:_pause_backend():253] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fce03208208>
+2021-05-19 20:36:34,334 INFO    MainThread:558564 [wandb_init.py:_resume_backend():258] resuming backend
+2021-05-19 20:36:34,338 INFO    MainThread:558564 [wandb_init.py:_pause_backend():249] pausing backend
+2021-05-19 20:36:34,338 INFO    MainThread:558564 [jupyter.py:save_ipynb():268] looking for notebook: 00-main.ipynb
+2021-05-19 20:36:34,827 INFO    MainThread:558564 [wandb_init.py:_pause_backend():253] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fce0324fc50>
+2021-05-19 20:36:34,830 INFO    MainThread:558564 [wandb_init.py:_resume_backend():258] resuming backend
+2021-05-19 20:36:34,837 INFO    MainThread:558564 [wandb_init.py:_pause_backend():249] pausing backend
+2021-05-19 20:36:34,837 INFO    MainThread:558564 [jupyter.py:save_ipynb():268] looking for notebook: 00-main.ipynb
+2021-05-19 20:36:35,446 INFO    MainThread:558564 [wandb_init.py:_pause_backend():253] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fcd0029ccf8>
+2021-05-19 20:36:35,449 INFO    MainThread:558564 [wandb_init.py:_resume_backend():258] resuming backend
+2021-05-19 20:36:35,453 INFO    MainThread:558564 [wandb_init.py:_pause_backend():249] pausing backend
+2021-05-19 20:36:35,453 INFO    MainThread:558564 [jupyter.py:save_ipynb():268] looking for notebook: 00-main.ipynb
+2021-05-19 20:36:37,142 INFO    MainThread:558564 [wandb_init.py:_pause_backend():253] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fcd0029cfd0>
+2021-05-19 20:37:18,680 INFO    MainThread:558564 [wandb_init.py:_resume_backend():258] resuming backend
+2021-05-19 20:37:18,680 INFO    MainThread:558564 [wandb_init.py:_pause_backend():249] pausing backend
+2021-05-19 20:37:18,681 INFO    MainThread:558564 [jupyter.py:save_ipynb():268] looking for notebook: 00-main.ipynb
+2021-05-19 20:37:19,164 INFO    MainThread:558564 [wandb_init.py:_pause_backend():253] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fcd002a20b8>
+2021-05-19 20:37:22,024 INFO    MainThread:558564 [wandb_init.py:_resume_backend():258] resuming backend
+2021-05-19 20:37:22,024 INFO    MainThread:558564 [wandb_init.py:_pause_backend():249] pausing backend
+2021-05-19 20:37:22,025 INFO    MainThread:558564 [jupyter.py:save_ipynb():268] looking for notebook: 00-main.ipynb
+2021-05-19 20:37:23,788 INFO    MainThread:558564 [wandb_init.py:_pause_backend():253] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fcd002a2f98>
+2021-05-19 20:37:23,793 INFO    MainThread:558564 [wandb_init.py:_resume_backend():258] resuming backend
+2021-05-19 20:37:23,801 INFO    MainThread:558564 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-19 20:37:23,801 INFO    MainThread:558564 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-05-19 20:37:23,801 INFO    MainThread:558564 [wandb_init.py:_log_setup():336] Logging user logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_203723-23ur0qez/logs/debug.log
+2021-05-19 20:37:23,801 INFO    MainThread:558564 [wandb_init.py:_log_setup():337] Logging internal logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_203723-23ur0qez/logs/debug-internal.log
+2021-05-19 20:37:23,803 INFO    MainThread:558564 [wandb_init.py:init():369] calling init triggers
+2021-05-19 20:37:23,803 INFO    MainThread:558564 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {}
+2021-05-19 20:37:23,803 INFO    MainThread:558564 [wandb_init.py:init():391] re-initializing run, found existing run on stack: 2bn1hhdz
+2021-05-19 20:37:23,804 INFO    MainThread:558564 [wandb_run.py:finish():1208] finishing run ranuga-d/House-Price-Pred/2bn1hhdz

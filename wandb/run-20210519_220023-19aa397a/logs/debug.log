@@ -1,0 +1,236 @@
+2021-05-19 22:00:23,808 INFO    MainThread:621315 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-19 22:00:23,809 INFO    MainThread:621315 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-05-19 22:00:23,809 INFO    MainThread:621315 [wandb_init.py:_log_setup():336] Logging user logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_220023-19aa397a/logs/debug.log
+2021-05-19 22:00:23,809 INFO    MainThread:621315 [wandb_init.py:_log_setup():337] Logging internal logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_220023-19aa397a/logs/debug-internal.log
+2021-05-19 22:00:23,809 INFO    MainThread:621315 [wandb_init.py:init():369] calling init triggers
+2021-05-19 22:00:23,809 INFO    MainThread:621315 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {}
+2021-05-19 22:00:23,809 INFO    MainThread:621315 [wandb_init.py:init():391] re-initializing run, found existing run on stack: 1scbp2n6
+2021-05-19 22:00:23,810 INFO    MainThread:621315 [wandb_run.py:finish():1208] finishing run ranuga-d/House-Price-Pred/1scbp2n6
+2021-05-19 22:00:23,819 INFO    MainThread:621315 [jupyter.py:save_history():349] saving 51 cells to _session_history.ipynb
+2021-05-19 22:00:23,832 INFO    MainThread:621315 [wandb_run.py:_config_callback():787] config_cb ('_wandb', 'session_history') code/_session_history.ipynb None
+2021-05-19 22:00:23,863 INFO    MainThread:621315 [jupyter.py:save_ipynb():268] looking for notebook: 00-main.ipynb
+2021-05-19 22:00:24,546 INFO    MainThread:621315 [wandb_init.py:_jupyter_teardown():267] saved code and history
+2021-05-19 22:00:24,546 INFO    MainThread:621315 [wandb_init.py:_jupyter_teardown():268] cleaning up jupyter logic
+2021-05-19 22:00:24,546 INFO    MainThread:621315 [wandb_run.py:_atexit_cleanup():1535] got exitcode: 0
+2021-05-19 22:00:24,546 INFO    MainThread:621315 [wandb_run.py:_restore():1507] restore
+2021-05-19 22:00:29,548 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: None
+2021-05-19 22:00:30,718 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 1
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 53663
+  total_bytes: 53663
+}
+
+2021-05-19 22:00:31,591 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 1
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 53663
+  total_bytes: 53663
+}
+
+2021-05-19 22:00:32,363 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 53663
+  total_bytes: 95749
+}
+
+2021-05-19 22:00:33,010 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 53663
+  total_bytes: 95749
+}
+
+2021-05-19 22:00:33,111 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 53817
+  total_bytes: 95749
+}
+
+2021-05-19 22:00:33,214 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 54184
+  total_bytes: 95749
+}
+
+2021-05-19 22:00:33,316 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 59897
+  total_bytes: 95749
+}
+
+2021-05-19 22:00:33,419 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 70735
+  total_bytes: 95749
+}
+
+2021-05-19 22:00:33,521 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 95749
+  total_bytes: 95749
+}
+
+2021-05-19 22:00:33,624 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 95749
+  total_bytes: 95749
+}
+
+2021-05-19 22:00:33,725 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 95749
+  total_bytes: 95749
+}
+
+2021-05-19 22:00:33,827 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 95749
+  total_bytes: 95749
+}
+
+2021-05-19 22:00:33,928 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 95749
+  total_bytes: 95749
+}
+
+2021-05-19 22:00:34,030 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 95749
+  total_bytes: 95749
+}
+
+2021-05-19 22:00:34,131 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 95749
+  total_bytes: 95749
+}
+
+2021-05-19 22:00:34,233 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 95749
+  total_bytes: 95749
+}
+
+2021-05-19 22:00:34,335 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 95749
+  total_bytes: 95749
+}
+
+2021-05-19 22:00:34,436 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 95749
+  total_bytes: 95749
+}
+
+2021-05-19 22:00:34,538 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+  artifact_count: 2
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 95749
+  total_bytes: 95749
+}
+
+2021-05-19 22:00:35,850 INFO    MainThread:621315 [wandb_run.py:_show_summary():1812] rendering summary
+2021-05-19 22:00:35,851 INFO    MainThread:621315 [wandb_run.py:_show_history():1850] rendering history
+2021-05-19 22:00:35,853 INFO    MainThread:621315 [wandb_run.py:_show_files():1879] logging synced files
+2021-05-19 22:00:35,856 INFO    MainThread:621315 [wandb_init.py:init():418] starting backend
+2021-05-19 22:00:35,856 INFO    MainThread:621315 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-05-19 22:00:35,858 INFO    MainThread:621315 [backend.py:ensure_launched():132] starting backend process...
+2021-05-19 22:00:35,893 INFO    MainThread:621315 [backend.py:ensure_launched():137] started backend process with pid: 649279
+2021-05-19 22:00:35,894 INFO    MainThread:621315 [wandb_init.py:init():423] backend started and connected
+2021-05-19 22:00:35,904 INFO    MainThread:621315 [wandb_init.py:init():465] updated telemetry
+2021-05-19 22:00:35,905 INFO    MainThread:621315 [wandb_init.py:init():484] communicating current version
+2021-05-19 22:00:37,252 INFO    MainThread:621315 [wandb_init.py:init():489] got version response 
+2021-05-19 22:00:37,252 INFO    MainThread:621315 [wandb_init.py:init():497] communicating run to backend with 30 second timeout
+2021-05-19 22:00:37,973 INFO    MainThread:621315 [wandb_init.py:init():522] starting run threads in backend
+2021-05-19 22:00:42,978 INFO    MainThread:621315 [wandb_run.py:_console_start():1565] atexit reg
+2021-05-19 22:00:42,981 INFO    MainThread:621315 [wandb_run.py:_redirect():1412] redirect: SettingsConsole.WRAP
+2021-05-19 22:00:42,981 INFO    MainThread:621315 [wandb_run.py:_redirect():1455] Wrapping output streams.
+2021-05-19 22:00:42,981 INFO    MainThread:621315 [wandb_run.py:_redirect():1479] Redirects installed.
+2021-05-19 22:00:42,981 INFO    MainThread:621315 [wandb_init.py:init():546] run started, returning control to user process
+2021-05-19 22:02:28,530 INFO    MainThread:621315 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-19 22:02:28,531 INFO    MainThread:621315 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-05-19 22:02:28,531 INFO    MainThread:621315 [wandb_init.py:_log_setup():336] Logging user logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_220228-orh7b64x/logs/debug.log
+2021-05-19 22:02:28,531 INFO    MainThread:621315 [wandb_init.py:_log_setup():337] Logging internal logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_220228-orh7b64x/logs/debug-internal.log
+2021-05-19 22:02:28,531 INFO    MainThread:621315 [wandb_init.py:_jupyter_setup():287] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fc1b978b898>
+2021-05-19 22:02:28,531 INFO    MainThread:621315 [wandb_init.py:init():369] calling init triggers
+2021-05-19 22:02:28,531 INFO    MainThread:621315 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {}
+2021-05-19 22:02:28,531 INFO    MainThread:621315 [wandb_init.py:init():391] re-initializing run, found existing run on stack: 19aa397a
+2021-05-19 22:02:28,532 INFO    MainThread:621315 [wandb_run.py:finish():1208] finishing run ranuga-d/House-Price-Pred/19aa397a

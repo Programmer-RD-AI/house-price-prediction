@@ -1,0 +1,204 @@
+2021-05-19 20:14:56,394 INFO    MainThread:541162 [internal.py:wandb_internal():91] W&B internal server running at pid: 541162, started at: 2021-05-19 20:14:56.393899
+2021-05-19 20:14:56,395 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: check_version
+2021-05-19 20:14:56,395 INFO    WriterThread:541162 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/run-3ab5hkba.wandb
+2021-05-19 20:14:56,397 DEBUG   SenderThread:541162 [sender.py:send():176] send: header
+2021-05-19 20:14:56,397 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: check_version
+2021-05-19 20:14:56,862 DEBUG   SenderThread:541162 [sender.py:send():176] send: run
+2021-05-19 20:14:56,865 DEBUG   SenderThread:541162 [git.py:repo():33] git repository is invalid
+2021-05-19 20:14:57,600 INFO    SenderThread:541162 [dir_watcher.py:__init__():168] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files
+2021-05-19 20:14:57,601 INFO    SenderThread:541162 [sender.py:_start_run_threads():699] run started: 3ab5hkba with start time 1621435495
+2021-05-19 20:14:57,601 DEBUG   SenderThread:541162 [sender.py:send():176] send: summary
+2021-05-19 20:14:57,601 INFO    SenderThread:541162 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 20:14:57,602 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: run_start
+2021-05-19 20:14:58,597 DEBUG   HandlerThread:541162 [meta.py:__init__():39] meta init
+2021-05-19 20:14:58,597 DEBUG   HandlerThread:541162 [meta.py:__init__():53] meta init done
+2021-05-19 20:14:58,597 DEBUG   HandlerThread:541162 [meta.py:probe():210] probe
+2021-05-19 20:14:58,603 INFO    Thread-8  :541162 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/wandb-summary.json
+2021-05-19 20:14:58,603 DEBUG   HandlerThread:541162 [git.py:repo():33] git repository is invalid
+2021-05-19 20:14:58,603 DEBUG   HandlerThread:541162 [meta.py:_save_code():89] save code
+2021-05-19 20:14:58,603 WARNING HandlerThread:541162 [meta.py:_save_code():91] unable to save code -- program entry not found
+2021-05-19 20:14:58,603 DEBUG   HandlerThread:541162 [meta.py:_save_pip():57] save pip
+2021-05-19 20:14:58,604 DEBUG   HandlerThread:541162 [meta.py:_save_pip():71] save pip done
+2021-05-19 20:14:58,604 DEBUG   HandlerThread:541162 [meta.py:_save_conda():78] save conda
+2021-05-19 20:14:59,603 INFO    Thread-8  :541162 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/requirements.txt
+2021-05-19 20:14:59,603 INFO    Thread-8  :541162 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/conda-environment.yaml
+2021-05-19 20:15:02,880 DEBUG   HandlerThread:541162 [meta.py:_save_conda():86] save conda done
+2021-05-19 20:15:02,880 DEBUG   HandlerThread:541162 [meta.py:probe():252] probe done
+2021-05-19 20:15:02,883 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 20:15:02,883 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 20:15:03,348 DEBUG   SenderThread:541162 [sender.py:send():176] send: files
+2021-05-19 20:15:03,348 INFO    SenderThread:541162 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-05-19 20:15:03,494 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-19 20:15:03,495 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: log_artifact
+2021-05-19 20:15:03,501 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: pause
+2021-05-19 20:15:03,502 INFO    HandlerThread:541162 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-19 20:15:03,604 INFO    Thread-8  :541162 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/conda-environment.yaml
+2021-05-19 20:15:03,604 INFO    Thread-8  :541162 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/output.log
+2021-05-19 20:15:03,605 INFO    Thread-8  :541162 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/wandb-metadata.json
+2021-05-19 20:15:04,974 INFO    Thread-11 :541162 [upload_job.py:push():133] Uploaded file /tmp/tmp8w_dpeojwandb/3278w5f2-wandb-metadata.json
+2021-05-19 20:15:07,213 INFO    Thread-13 :541162 [upload_job.py:push():91] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/dd/d598228db5d097fab8624eb29f06ad
+2021-05-19 20:15:09,410 DEBUG   SenderThread:541162 [sender.py:send():176] send: stats
+2021-05-19 20:15:18,349 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 20:15:18,350 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 20:15:33,840 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 20:15:33,840 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 20:15:47,565 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: resume
+2021-05-19 20:15:47,565 INFO    HandlerThread:541162 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-19 20:15:48,039 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-19 20:15:48,040 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: log_artifact
+2021-05-19 20:15:48,042 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: pause
+2021-05-19 20:15:48,042 INFO    HandlerThread:541162 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-19 20:15:48,095 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: resume
+2021-05-19 20:15:48,095 INFO    HandlerThread:541162 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-19 20:15:48,868 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-19 20:15:48,871 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: pause
+2021-05-19 20:15:48,871 INFO    HandlerThread:541162 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-19 20:15:48,926 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: resume
+2021-05-19 20:15:48,926 INFO    HandlerThread:541162 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-19 20:15:49,495 DEBUG   SenderThread:541162 [sender.py:send():176] send: stats
+2021-05-19 20:15:49,495 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: log_artifact
+2021-05-19 20:15:49,754 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 20:15:49,914 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-19 20:15:49,916 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: pause
+2021-05-19 20:15:49,916 INFO    HandlerThread:541162 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-19 20:15:49,951 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: resume
+2021-05-19 20:15:49,951 INFO    HandlerThread:541162 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-19 20:15:50,098 DEBUG   SenderThread:541162 [sender.py:send():176] send: stats
+2021-05-19 20:15:50,098 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 20:15:50,835 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-19 20:15:50,837 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: pause
+2021-05-19 20:15:50,837 INFO    HandlerThread:541162 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-19 20:15:51,262 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: log_artifact
+2021-05-19 20:15:51,877 DEBUG   SenderThread:541162 [sender.py:send():176] send: stats
+2021-05-19 20:15:51,878 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: log_artifact
+2021-05-19 20:15:52,924 DEBUG   SenderThread:541162 [sender.py:send():176] send: stats
+2021-05-19 20:15:53,146 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: resume
+2021-05-19 20:15:53,147 INFO    HandlerThread:541162 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-19 20:15:53,179 DEBUG   SenderThread:541162 [sender.py:send():176] send: config
+2021-05-19 20:15:53,620 INFO    Thread-8  :541162 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/code/_session_history.ipynb
+2021-05-19 20:15:53,621 INFO    Thread-8  :541162 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/code
+2021-05-19 20:15:53,679 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-19 20:15:53,680 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: log_artifact
+2021-05-19 20:15:53,686 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 20:15:54,621 INFO    Thread-8  :541162 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/output.log
+2021-05-19 20:15:56,730 INFO    Thread-20 :541162 [upload_job.py:push():88] Skipped uploading /home/indika/.cache/wandb/artifacts/obj/md5/dd/d598228db5d097fab8624eb29f06ad
+2021-05-19 20:15:57,804 INFO    Thread-21 :541162 [upload_job.py:push():91] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/1b/bc4e4a706590e73ce499cb964fa949
+2021-05-19 20:15:58,785 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 20:16:00,794 DEBUG   SenderThread:541162 [sender.py:send():176] send: telemetry
+2021-05-19 20:16:00,794 DEBUG   SenderThread:541162 [sender.py:send():176] send: exit
+2021-05-19 20:16:00,794 INFO    SenderThread:541162 [sender.py:send_exit():281] handling exit code: 0
+2021-05-19 20:16:00,795 INFO    SenderThread:541162 [sender.py:send_exit():289] send defer
+2021-05-19 20:16:00,795 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 20:16:00,795 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 20:16:00,795 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 20:16:00,795 INFO    HandlerThread:541162 [handler.py:handle_request_defer():138] handle defer: 0
+2021-05-19 20:16:00,795 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: defer
+2021-05-19 20:16:00,796 INFO    SenderThread:541162 [sender.py:send_request_defer():298] handle sender defer: 0
+2021-05-19 20:16:00,796 INFO    SenderThread:541162 [sender.py:send_request_defer():336] send defer: 1
+2021-05-19 20:16:00,796 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 20:16:00,796 INFO    HandlerThread:541162 [handler.py:handle_request_defer():138] handle defer: 1
+2021-05-19 20:16:00,814 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: defer
+2021-05-19 20:16:00,814 INFO    SenderThread:541162 [sender.py:send_request_defer():298] handle sender defer: 1
+2021-05-19 20:16:00,814 INFO    SenderThread:541162 [sender.py:send_request_defer():336] send defer: 2
+2021-05-19 20:16:00,814 DEBUG   SenderThread:541162 [sender.py:send():176] send: stats
+2021-05-19 20:16:00,815 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 20:16:00,815 INFO    HandlerThread:541162 [handler.py:handle_request_defer():138] handle defer: 2
+2021-05-19 20:16:00,815 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: defer
+2021-05-19 20:16:00,815 INFO    SenderThread:541162 [sender.py:send_request_defer():298] handle sender defer: 2
+2021-05-19 20:16:00,815 INFO    SenderThread:541162 [sender.py:send_request_defer():336] send defer: 3
+2021-05-19 20:16:00,815 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 20:16:00,816 INFO    HandlerThread:541162 [handler.py:handle_request_defer():138] handle defer: 3
+2021-05-19 20:16:00,816 DEBUG   SenderThread:541162 [sender.py:send():176] send: summary
+2021-05-19 20:16:00,816 INFO    SenderThread:541162 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 20:16:00,816 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: defer
+2021-05-19 20:16:00,816 INFO    SenderThread:541162 [sender.py:send_request_defer():298] handle sender defer: 3
+2021-05-19 20:16:00,816 INFO    SenderThread:541162 [sender.py:send_request_defer():336] send defer: 4
+2021-05-19 20:16:00,816 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 20:16:00,817 INFO    HandlerThread:541162 [handler.py:handle_request_defer():138] handle defer: 4
+2021-05-19 20:16:00,817 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: defer
+2021-05-19 20:16:00,817 INFO    SenderThread:541162 [sender.py:send_request_defer():298] handle sender defer: 4
+2021-05-19 20:16:00,899 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 20:16:01,400 INFO    SenderThread:541162 [sender.py:send_request_defer():336] send defer: 5
+2021-05-19 20:16:01,400 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 20:16:01,400 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 20:16:01,400 INFO    HandlerThread:541162 [handler.py:handle_request_defer():138] handle defer: 5
+2021-05-19 20:16:01,400 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: defer
+2021-05-19 20:16:01,400 INFO    SenderThread:541162 [sender.py:send_request_defer():298] handle sender defer: 5
+2021-05-19 20:16:01,400 INFO    SenderThread:541162 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-05-19 20:16:01,501 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 20:16:01,622 INFO    SenderThread:541162 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/wandb-summary.json
+2021-05-19 20:16:01,622 INFO    SenderThread:541162 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/config.yaml
+2021-05-19 20:16:01,623 INFO    SenderThread:541162 [dir_watcher.py:finish():312] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files
+2021-05-19 20:16:01,623 INFO    SenderThread:541162 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/conda-environment.yaml conda-environment.yaml
+2021-05-19 20:16:01,623 INFO    SenderThread:541162 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/config.yaml config.yaml
+2021-05-19 20:16:01,623 INFO    SenderThread:541162 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/requirements.txt requirements.txt
+2021-05-19 20:16:01,627 INFO    SenderThread:541162 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/wandb-metadata.json wandb-metadata.json
+2021-05-19 20:16:01,627 INFO    SenderThread:541162 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/output.log output.log
+2021-05-19 20:16:01,631 INFO    SenderThread:541162 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/wandb-summary.json wandb-summary.json
+2021-05-19 20:16:01,637 INFO    SenderThread:541162 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/code/_session_history.ipynb code/_session_history.ipynb
+2021-05-19 20:16:01,640 INFO    SenderThread:541162 [sender.py:send_request_defer():336] send defer: 6
+2021-05-19 20:16:01,640 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 20:16:01,642 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 20:16:01,642 INFO    HandlerThread:541162 [handler.py:handle_request_defer():138] handle defer: 6
+2021-05-19 20:16:01,642 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: defer
+2021-05-19 20:16:01,644 INFO    SenderThread:541162 [sender.py:send_request_defer():298] handle sender defer: 6
+2021-05-19 20:16:01,644 INFO    SenderThread:541162 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-19 20:16:01,645 INFO    SenderThread:541162 [sender.py:send_request_defer():336] send defer: 7
+2021-05-19 20:16:01,645 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 20:16:01,645 INFO    HandlerThread:541162 [handler.py:handle_request_defer():138] handle defer: 7
+2021-05-19 20:16:01,645 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: defer
+2021-05-19 20:16:01,645 INFO    SenderThread:541162 [sender.py:send_request_defer():298] handle sender defer: 7
+2021-05-19 20:16:01,744 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 20:16:02,374 INFO    SenderThread:541162 [sender.py:send_request_defer():336] send defer: 8
+2021-05-19 20:16:02,374 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 20:16:02,374 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 20:16:02,375 INFO    HandlerThread:541162 [handler.py:handle_request_defer():138] handle defer: 8
+2021-05-19 20:16:02,375 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: defer
+2021-05-19 20:16:02,375 INFO    SenderThread:541162 [sender.py:send_request_defer():298] handle sender defer: 8
+2021-05-19 20:16:02,375 INFO    SenderThread:541162 [sender.py:send_request_defer():336] send defer: 9
+2021-05-19 20:16:02,375 DEBUG   SenderThread:541162 [sender.py:send():176] send: final
+2021-05-19 20:16:02,376 DEBUG   SenderThread:541162 [sender.py:send():176] send: footer
+2021-05-19 20:16:02,376 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 20:16:02,376 INFO    HandlerThread:541162 [handler.py:handle_request_defer():138] handle defer: 9
+2021-05-19 20:16:02,376 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: defer
+2021-05-19 20:16:02,376 INFO    SenderThread:541162 [sender.py:send_request_defer():298] handle sender defer: 9
+2021-05-19 20:16:02,477 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 20:16:02,477 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 20:16:02,579 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 20:16:02,579 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 20:16:02,680 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 20:16:02,681 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 20:16:02,719 INFO    Thread-26 :541162 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/wandb-summary.json
+2021-05-19 20:16:02,783 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 20:16:02,783 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 20:16:02,886 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 20:16:02,886 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 20:16:02,987 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 20:16:02,987 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 20:16:03,089 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 20:16:03,089 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 20:16:03,115 INFO    Thread-23 :541162 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/config.yaml
+2021-05-19 20:16:03,146 INFO    Thread-25 :541162 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/output.log
+2021-05-19 20:16:03,191 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 20:16:03,191 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 20:16:03,253 INFO    Thread-27 :541162 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/code/_session_history.ipynb
+2021-05-19 20:16:03,292 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 20:16:03,292 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 20:16:03,307 INFO    Thread-24 :541162 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/requirements.txt
+2021-05-19 20:16:03,329 INFO    Thread-22 :541162 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/files/conda-environment.yaml
+2021-05-19 20:16:03,394 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 20:16:03,394 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 20:16:03,495 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 20:16:03,496 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 20:16:03,597 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 20:16:03,597 DEBUG   SenderThread:541162 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 20:16:03,597 INFO    SenderThread:541162 [file_pusher.py:join():181] waiting for file pusher
+2021-05-19 20:16:03,598 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: get_summary
+2021-05-19 20:16:03,599 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: sampled_history
+2021-05-19 20:16:03,599 DEBUG   HandlerThread:541162 [handler.py:handle_request():121] handle_request: shutdown
+2021-05-19 20:16:03,599 INFO    HandlerThread:541162 [handler.py:finish():632] shutting down handler
+2021-05-19 20:16:04,376 INFO    WriterThread:541162 [datastore.py:close():258] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_201451-3ab5hkba/run-3ab5hkba.wandb
+2021-05-19 20:16:04,598 INFO    SenderThread:541162 [sender.py:finish():925] shutting down sender
+2021-05-19 20:16:04,598 INFO    SenderThread:541162 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-19 20:16:04,598 INFO    SenderThread:541162 [file_pusher.py:join():181] waiting for file pusher
+2021-05-19 20:16:04,598 INFO    MainThread:541162 [internal.py:handle_exit():78] Internal process exited

@@ -1,0 +1,146 @@
+2021-05-19 22:10:09,269 INFO    MainThread:621315 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-19 22:10:09,269 INFO    MainThread:621315 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-05-19 22:10:09,269 INFO    MainThread:621315 [wandb_init.py:_log_setup():336] Logging user logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_221009-12lcq9m6/logs/debug.log
+2021-05-19 22:10:09,269 INFO    MainThread:621315 [wandb_init.py:_log_setup():337] Logging internal logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_221009-12lcq9m6/logs/debug-internal.log
+2021-05-19 22:10:09,269 INFO    MainThread:621315 [wandb_init.py:_jupyter_setup():287] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fc1d8aba630>
+2021-05-19 22:10:09,270 INFO    MainThread:621315 [wandb_init.py:init():369] calling init triggers
+2021-05-19 22:10:09,270 INFO    MainThread:621315 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {}
+2021-05-19 22:10:09,270 INFO    MainThread:621315 [wandb_init.py:init():391] re-initializing run, found existing run on stack: 1aqwp0db
+2021-05-19 22:10:09,271 INFO    MainThread:621315 [wandb_run.py:finish():1208] finishing run ranuga-d/House-Price-Pred/1aqwp0db
+2021-05-19 22:10:09,271 INFO    MainThread:621315 [wandb_run.py:_atexit_cleanup():1535] got exitcode: 0
+2021-05-19 22:10:09,271 INFO    MainThread:621315 [wandb_run.py:_restore():1507] restore
+2021-05-19 22:10:09,274 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 717
+  total_bytes: 717
+}
+
+2021-05-19 22:10:09,993 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 717
+  total_bytes: 717
+}
+
+2021-05-19 22:10:10,835 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 717
+  total_bytes: 17710
+}
+
+2021-05-19 22:10:10,938 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 17196
+  total_bytes: 17710
+}
+
+2021-05-19 22:10:11,040 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 17392
+  total_bytes: 17710
+}
+
+2021-05-19 22:10:11,143 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 17710
+  total_bytes: 17710
+}
+
+2021-05-19 22:10:11,245 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 17710
+  total_bytes: 17710
+}
+
+2021-05-19 22:10:11,346 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 17710
+  total_bytes: 17710
+}
+
+2021-05-19 22:10:11,448 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 17710
+  total_bytes: 17710
+}
+
+2021-05-19 22:10:11,549 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 17710
+  total_bytes: 17710
+}
+
+2021-05-19 22:10:11,651 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 17710
+  total_bytes: 17710
+}
+
+2021-05-19 22:10:11,753 INFO    MainThread:621315 [wandb_run.py:_wait_for_finish():1657] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 17710
+  total_bytes: 17710
+}
+
+2021-05-19 22:10:13,073 INFO    MainThread:621315 [wandb_run.py:_show_summary():1812] rendering summary
+2021-05-19 22:10:13,074 INFO    MainThread:621315 [wandb_run.py:_show_history():1850] rendering history
+2021-05-19 22:10:13,076 INFO    MainThread:621315 [wandb_run.py:_show_files():1879] logging synced files
+2021-05-19 22:10:13,079 INFO    MainThread:621315 [wandb_init.py:init():418] starting backend
+2021-05-19 22:10:13,079 INFO    MainThread:621315 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-05-19 22:10:13,081 INFO    MainThread:621315 [backend.py:ensure_launched():132] starting backend process...
+2021-05-19 22:10:13,118 INFO    MainThread:621315 [backend.py:ensure_launched():137] started backend process with pid: 658524
+2021-05-19 22:10:13,119 INFO    MainThread:621315 [wandb_init.py:init():423] backend started and connected
+2021-05-19 22:10:13,131 INFO    MainThread:621315 [wandb_init.py:init():465] updated telemetry
+2021-05-19 22:10:13,132 INFO    MainThread:621315 [wandb_init.py:init():484] communicating current version
+2021-05-19 22:10:14,398 INFO    MainThread:621315 [wandb_init.py:init():489] got version response 
+2021-05-19 22:10:14,398 INFO    MainThread:621315 [wandb_init.py:init():497] communicating run to backend with 30 second timeout
+2021-05-19 22:10:14,934 INFO    MainThread:621315 [wandb_init.py:init():522] starting run threads in backend
+2021-05-19 22:10:19,939 INFO    MainThread:621315 [wandb_run.py:_console_start():1565] atexit reg
+2021-05-19 22:10:19,940 INFO    MainThread:621315 [wandb_run.py:_redirect():1412] redirect: SettingsConsole.WRAP
+2021-05-19 22:10:19,940 INFO    MainThread:621315 [wandb_run.py:_redirect():1455] Wrapping output streams.
+2021-05-19 22:10:19,941 INFO    MainThread:621315 [wandb_run.py:_redirect():1479] Redirects installed.
+2021-05-19 22:10:19,941 INFO    MainThread:621315 [wandb_init.py:init():546] run started, returning control to user process
+2021-05-19 22:10:19,958 INFO    MainThread:621315 [wandb_init.py:_pause_backend():249] pausing backend
+2021-05-19 22:10:19,958 INFO    MainThread:621315 [jupyter.py:save_ipynb():268] looking for notebook: 00-main.ipynb
+2021-05-19 22:10:20,456 INFO    MainThread:621315 [wandb_init.py:_pause_backend():253] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fc1d0103048>
+2021-05-19 22:11:50,920 INFO    MainThread:621315 [wandb_init.py:_resume_backend():258] resuming backend
+2021-05-19 22:11:50,930 INFO    MainThread:621315 [wandb_init.py:_pause_backend():249] pausing backend
+2021-05-19 22:11:50,930 INFO    MainThread:621315 [jupyter.py:save_ipynb():268] looking for notebook: 00-main.ipynb
+2021-05-19 22:11:51,411 INFO    MainThread:621315 [wandb_init.py:_pause_backend():253] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fc2e173a748>
+2021-05-19 22:12:09,535 INFO    MainThread:621315 [wandb_init.py:_resume_backend():258] resuming backend
+2021-05-19 22:12:09,552 INFO    MainThread:621315 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-19 22:12:09,552 INFO    MainThread:621315 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-05-19 22:12:09,553 INFO    MainThread:621315 [wandb_init.py:_log_setup():336] Logging user logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_221209-11y4grht/logs/debug.log
+2021-05-19 22:12:09,553 INFO    MainThread:621315 [wandb_init.py:_log_setup():337] Logging internal logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_221209-11y4grht/logs/debug-internal.log
+2021-05-19 22:12:09,553 INFO    MainThread:621315 [wandb_init.py:init():369] calling init triggers
+2021-05-19 22:12:09,553 INFO    MainThread:621315 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {}
+2021-05-19 22:12:09,553 INFO    MainThread:621315 [wandb_init.py:init():391] re-initializing run, found existing run on stack: 12lcq9m6
+2021-05-19 22:12:09,554 INFO    MainThread:621315 [wandb_run.py:finish():1208] finishing run ranuga-d/House-Price-Pred/12lcq9m6

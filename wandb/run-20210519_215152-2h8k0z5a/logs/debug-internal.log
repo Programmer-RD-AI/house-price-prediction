@@ -1,0 +1,599 @@
+2021-05-19 21:52:04,900 INFO    MainThread:640102 [internal.py:wandb_internal():91] W&B internal server running at pid: 640102, started at: 2021-05-19 21:52:04.900054
+2021-05-19 21:52:04,901 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: check_version
+2021-05-19 21:52:04,901 INFO    WriterThread:640102 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/run-2h8k0z5a.wandb
+2021-05-19 21:52:04,903 DEBUG   SenderThread:640102 [sender.py:send():176] send: header
+2021-05-19 21:52:04,903 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: check_version
+2021-05-19 21:52:05,630 DEBUG   SenderThread:640102 [sender.py:send():176] send: run
+2021-05-19 21:52:05,632 DEBUG   SenderThread:640102 [git.py:repo():33] git repository is invalid
+2021-05-19 21:52:06,374 INFO    SenderThread:640102 [dir_watcher.py:__init__():168] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files
+2021-05-19 21:52:06,374 INFO    SenderThread:640102 [sender.py:_start_run_threads():699] run started: 2h8k0z5a with start time 1621441324
+2021-05-19 21:52:06,374 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:06,374 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:06,375 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: run_start
+2021-05-19 21:52:07,375 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:07,391 DEBUG   HandlerThread:640102 [meta.py:__init__():39] meta init
+2021-05-19 21:52:07,391 DEBUG   HandlerThread:640102 [meta.py:__init__():53] meta init done
+2021-05-19 21:52:07,391 DEBUG   HandlerThread:640102 [meta.py:probe():210] probe
+2021-05-19 21:52:07,397 DEBUG   HandlerThread:640102 [git.py:repo():33] git repository is invalid
+2021-05-19 21:52:07,397 DEBUG   HandlerThread:640102 [meta.py:_save_code():89] save code
+2021-05-19 21:52:07,397 WARNING HandlerThread:640102 [meta.py:_save_code():91] unable to save code -- program entry not found
+2021-05-19 21:52:07,397 DEBUG   HandlerThread:640102 [meta.py:_save_pip():57] save pip
+2021-05-19 21:52:07,397 DEBUG   HandlerThread:640102 [meta.py:_save_pip():71] save pip done
+2021-05-19 21:52:07,398 DEBUG   HandlerThread:640102 [meta.py:_save_conda():78] save conda
+2021-05-19 21:52:08,377 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/requirements.txt
+2021-05-19 21:52:08,378 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/conda-environment.yaml
+2021-05-19 21:52:11,686 DEBUG   HandlerThread:640102 [meta.py:_save_conda():86] save conda done
+2021-05-19 21:52:11,686 DEBUG   HandlerThread:640102 [meta.py:probe():252] probe done
+2021-05-19 21:52:11,688 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 21:52:11,688 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 21:52:12,376 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/conda-environment.yaml
+2021-05-19 21:52:12,376 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-metadata.json
+2021-05-19 21:52:12,377 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/output.log
+2021-05-19 21:52:12,404 DEBUG   SenderThread:640102 [sender.py:send():176] send: files
+2021-05-19 21:52:12,404 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-05-19 21:52:12,405 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:12,405 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:12,407 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:13,120 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:13,120 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:13,120 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:13,376 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:13,984 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:13,984 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:13,985 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:14,138 INFO    Thread-11 :640102 [upload_job.py:push():133] Uploaded file /tmp/tmpdk2ogsaewandb/38v6z4sj-wandb-metadata.json
+2021-05-19 21:52:14,377 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:14,845 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:14,846 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:14,848 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:15,377 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:15,706 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:15,707 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:15,708 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:16,378 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:16,570 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:16,570 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:16,570 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:17,378 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:17,433 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:17,433 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:17,435 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:18,295 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:18,296 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:18,296 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:18,378 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:19,206 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:19,206 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:19,207 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:19,379 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:20,099 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:20,100 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:20,102 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:20,379 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:20,973 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:20,974 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:20,974 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:21,380 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:21,841 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:21,841 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:21,841 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:22,380 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:22,706 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:22,706 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:22,709 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:23,381 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:23,568 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:23,569 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:23,569 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:24,381 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:24,431 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:24,431 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:24,432 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:25,293 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:25,293 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:25,296 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:25,381 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:26,154 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:26,154 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:26,155 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:26,382 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:27,020 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:27,020 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:27,020 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:27,382 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:27,405 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 21:52:27,405 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 21:52:27,971 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:27,971 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:27,973 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:28,382 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:28,749 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:28,749 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:28,750 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:29,383 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:29,612 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:29,613 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:29,613 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:30,383 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:30,500 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:30,500 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:30,502 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:31,383 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:31,403 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:31,403 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:31,403 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:32,280 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:32,281 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:32,281 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:32,384 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:33,147 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:33,147 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:33,150 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:33,384 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:34,010 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:34,010 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:34,010 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:34,385 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:34,881 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:34,882 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:34,882 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:35,385 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:35,617 DEBUG   SenderThread:640102 [sender.py:send():176] send: stats
+2021-05-19 21:52:35,750 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:35,751 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:35,751 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:36,385 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:36,616 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:36,616 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:36,617 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:37,386 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:37,482 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:37,483 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:37,483 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:38,345 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:38,345 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:38,348 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:38,386 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:39,210 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:39,210 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:39,211 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:39,387 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:40,072 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:40,072 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:40,073 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:40,387 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:40,939 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:40,939 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:40,942 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:41,387 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:41,818 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:41,818 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:41,819 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:42,388 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:42,728 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:42,729 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:42,729 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:42,972 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 21:52:42,972 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 21:52:43,388 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:43,774 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:43,774 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:43,777 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:44,389 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:44,476 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:44,477 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:44,477 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:45,350 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:45,350 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:45,350 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:45,389 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:46,265 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:46,265 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:46,268 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:46,389 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:47,156 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:47,156 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:47,158 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:47,390 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:48,022 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:48,022 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:48,024 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:48,390 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:48,888 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:48,888 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:48,891 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:49,391 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:49,756 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:49,757 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:49,757 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:50,391 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:50,622 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:50,623 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:50,623 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:51,392 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:51,491 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:51,491 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:51,492 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:52,357 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:52,357 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:52,358 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:52,392 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:53,233 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:53,233 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:53,233 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:53,392 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:54,155 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:54,156 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:54,158 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:54,393 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:55,036 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:55,037 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:55,037 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:55,393 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:55,908 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:55,908 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:55,909 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:56,393 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:56,772 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:56,772 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:56,775 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:57,394 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:57,641 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:57,641 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:57,641 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:58,394 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:52:58,509 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:58,509 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:58,510 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:58,775 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 21:52:58,776 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 21:52:59,375 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:52:59,375 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:52:59,376 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:52:59,395 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:00,243 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:00,243 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:00,243 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:00,395 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:01,111 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:01,112 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:01,112 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:01,396 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:01,979 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:01,979 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:01,980 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:02,396 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:02,850 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:02,851 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:02,851 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:03,397 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:03,717 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:03,718 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:03,718 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:04,397 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:04,603 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:04,603 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:04,603 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:05,397 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:05,520 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:05,520 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:05,521 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:05,839 DEBUG   SenderThread:640102 [sender.py:send():176] send: stats
+2021-05-19 21:53:06,398 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:06,405 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:06,405 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:06,405 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:07,273 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:07,274 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:07,274 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:07,398 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:08,135 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:08,135 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:08,136 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:08,398 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:09,004 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:09,005 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:09,005 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:09,399 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:09,870 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:09,871 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:09,871 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:10,399 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:10,737 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:10,738 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:10,738 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:11,400 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:11,608 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:11,608 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:11,608 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:12,400 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:12,469 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:12,469 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:12,471 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:13,329 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:13,329 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:13,329 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:13,400 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:14,189 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:14,190 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:14,190 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:14,253 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 21:53:14,253 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 21:53:14,401 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:15,050 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:15,050 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:15,050 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:15,401 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:15,928 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:15,928 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:15,928 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:16,402 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:16,838 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:16,838 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:16,839 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:17,402 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:17,729 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:17,730 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:17,730 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:18,402 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:18,650 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:18,650 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:18,652 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:19,403 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:19,552 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:19,553 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:19,553 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:20,403 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:20,420 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:20,420 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:20,421 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:21,285 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:21,285 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:21,286 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:21,403 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:22,152 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:22,152 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:22,152 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:22,404 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:23,021 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:23,021 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:23,023 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:23,404 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:23,888 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:23,888 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:23,888 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:24,405 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:24,755 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:24,755 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:24,755 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:25,405 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:25,623 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:25,623 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:25,624 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:26,405 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:26,510 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:26,510 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:26,511 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:27,406 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:27,418 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:27,418 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:27,418 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:28,309 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:28,309 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:28,309 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:28,406 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:29,179 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:29,180 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:29,180 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:29,407 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:29,970 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 21:53:29,970 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 21:53:30,682 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:30,683 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:30,683 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:30,976 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:30,976 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:30,976 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:31,408 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:31,837 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:31,838 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:31,838 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:32,408 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:32,714 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:32,715 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:32,715 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:33,408 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:33,583 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:33,583 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:33,583 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:34,409 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:34,452 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:34,452 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:34,452 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:35,320 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:35,321 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:35,321 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:35,409 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:36,072 DEBUG   SenderThread:640102 [sender.py:send():176] send: stats
+2021-05-19 21:53:36,185 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:36,185 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:36,185 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:36,409 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:37,055 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:37,055 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:37,056 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:37,410 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:37,937 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:37,937 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:37,938 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:38,410 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:38,864 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:38,864 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:38,865 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:39,411 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:39,778 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:39,778 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:39,779 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:40,411 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:40,679 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:40,679 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:40,679 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:41,411 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:41,608 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:41,608 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:41,608 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:42,412 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:42,568 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:42,568 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:42,568 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:43,412 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:43,477 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:43,478 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:43,478 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:44,412 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:44,419 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:44,419 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:44,421 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:45,307 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:45,307 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:45,307 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:45,413 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:45,683 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 21:53:45,684 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 21:53:46,237 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:46,237 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:46,237 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:46,413 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:47,208 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:47,208 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:47,210 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:47,414 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:48,120 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:48,120 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:48,120 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:48,414 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:49,076 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:49,076 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:49,076 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:49,414 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:49,955 DEBUG   SenderThread:640102 [sender.py:send():176] send: history
+2021-05-19 21:53:49,955 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:49,955 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:49,966 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 21:53:49,967 DEBUG   SenderThread:640102 [sender.py:send():176] send: telemetry
+2021-05-19 21:53:49,967 DEBUG   SenderThread:640102 [sender.py:send():176] send: exit
+2021-05-19 21:53:49,967 INFO    SenderThread:640102 [sender.py:send_exit():281] handling exit code: 0
+2021-05-19 21:53:49,967 INFO    SenderThread:640102 [sender.py:send_exit():289] send defer
+2021-05-19 21:53:49,967 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 21:53:49,968 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 21:53:49,968 INFO    HandlerThread:640102 [handler.py:handle_request_defer():138] handle defer: 0
+2021-05-19 21:53:49,968 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: defer
+2021-05-19 21:53:49,968 INFO    SenderThread:640102 [sender.py:send_request_defer():298] handle sender defer: 0
+2021-05-19 21:53:49,968 INFO    SenderThread:640102 [sender.py:send_request_defer():336] send defer: 1
+2021-05-19 21:53:49,968 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 21:53:49,968 INFO    HandlerThread:640102 [handler.py:handle_request_defer():138] handle defer: 1
+2021-05-19 21:53:50,078 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 21:53:50,079 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: defer
+2021-05-19 21:53:50,079 INFO    SenderThread:640102 [sender.py:send_request_defer():298] handle sender defer: 1
+2021-05-19 21:53:50,079 INFO    SenderThread:640102 [sender.py:send_request_defer():336] send defer: 2
+2021-05-19 21:53:50,080 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 21:53:50,085 INFO    HandlerThread:640102 [handler.py:handle_request_defer():138] handle defer: 2
+2021-05-19 21:53:50,415 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:50,415 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/output.log
+2021-05-19 21:53:50,823 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 21:53:50,823 DEBUG   SenderThread:640102 [sender.py:send():176] send: stats
+2021-05-19 21:53:50,824 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: defer
+2021-05-19 21:53:50,824 INFO    SenderThread:640102 [sender.py:send_request_defer():298] handle sender defer: 2
+2021-05-19 21:53:50,824 INFO    SenderThread:640102 [sender.py:send_request_defer():336] send defer: 3
+2021-05-19 21:53:50,824 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 21:53:50,824 INFO    HandlerThread:640102 [handler.py:handle_request_defer():138] handle defer: 3
+2021-05-19 21:53:50,825 DEBUG   SenderThread:640102 [sender.py:send():176] send: summary
+2021-05-19 21:53:50,825 INFO    SenderThread:640102 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 21:53:50,825 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: defer
+2021-05-19 21:53:50,825 INFO    SenderThread:640102 [sender.py:send_request_defer():298] handle sender defer: 3
+2021-05-19 21:53:50,825 INFO    SenderThread:640102 [sender.py:send_request_defer():336] send defer: 4
+2021-05-19 21:53:50,825 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 21:53:50,825 INFO    HandlerThread:640102 [handler.py:handle_request_defer():138] handle defer: 4
+2021-05-19 21:53:50,826 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: defer
+2021-05-19 21:53:50,826 INFO    SenderThread:640102 [sender.py:send_request_defer():298] handle sender defer: 4
+2021-05-19 21:53:50,826 INFO    SenderThread:640102 [sender.py:send_request_defer():336] send defer: 5
+2021-05-19 21:53:50,826 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 21:53:50,826 INFO    HandlerThread:640102 [handler.py:handle_request_defer():138] handle defer: 5
+2021-05-19 21:53:50,826 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: defer
+2021-05-19 21:53:50,826 INFO    SenderThread:640102 [sender.py:send_request_defer():298] handle sender defer: 5
+2021-05-19 21:53:50,826 INFO    SenderThread:640102 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-05-19 21:53:50,925 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 21:53:51,415 INFO    Thread-8  :640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:51,416 INFO    SenderThread:640102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/config.yaml
+2021-05-19 21:53:51,416 INFO    SenderThread:640102 [dir_watcher.py:finish():312] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files
+2021-05-19 21:53:51,417 INFO    SenderThread:640102 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/config.yaml config.yaml
+2021-05-19 21:53:51,417 INFO    SenderThread:640102 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json wandb-summary.json
+2021-05-19 21:53:51,417 INFO    SenderThread:640102 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/output.log output.log
+2021-05-19 21:53:51,421 INFO    SenderThread:640102 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/requirements.txt requirements.txt
+2021-05-19 21:53:51,426 INFO    SenderThread:640102 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-metadata.json wandb-metadata.json
+2021-05-19 21:53:51,429 INFO    SenderThread:640102 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/conda-environment.yaml conda-environment.yaml
+2021-05-19 21:53:51,429 INFO    SenderThread:640102 [sender.py:send_request_defer():336] send defer: 6
+2021-05-19 21:53:51,432 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 21:53:51,435 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 21:53:51,435 INFO    HandlerThread:640102 [handler.py:handle_request_defer():138] handle defer: 6
+2021-05-19 21:53:51,435 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: defer
+2021-05-19 21:53:51,435 INFO    SenderThread:640102 [sender.py:send_request_defer():298] handle sender defer: 6
+2021-05-19 21:53:51,436 INFO    SenderThread:640102 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-19 21:53:51,436 INFO    SenderThread:640102 [sender.py:send_request_defer():336] send defer: 7
+2021-05-19 21:53:51,436 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 21:53:51,436 INFO    HandlerThread:640102 [handler.py:handle_request_defer():138] handle defer: 7
+2021-05-19 21:53:51,436 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: defer
+2021-05-19 21:53:51,436 INFO    SenderThread:640102 [sender.py:send_request_defer():298] handle sender defer: 7
+2021-05-19 21:53:51,535 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 21:53:52,281 INFO    SenderThread:640102 [sender.py:send_request_defer():336] send defer: 8
+2021-05-19 21:53:52,281 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 21:53:52,281 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 21:53:52,282 INFO    HandlerThread:640102 [handler.py:handle_request_defer():138] handle defer: 8
+2021-05-19 21:53:52,282 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: defer
+2021-05-19 21:53:52,282 INFO    SenderThread:640102 [sender.py:send_request_defer():298] handle sender defer: 8
+2021-05-19 21:53:52,282 INFO    SenderThread:640102 [sender.py:send_request_defer():336] send defer: 9
+2021-05-19 21:53:52,282 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 21:53:52,282 DEBUG   SenderThread:640102 [sender.py:send():176] send: final
+2021-05-19 21:53:52,283 INFO    HandlerThread:640102 [handler.py:handle_request_defer():138] handle defer: 9
+2021-05-19 21:53:52,283 DEBUG   SenderThread:640102 [sender.py:send():176] send: footer
+2021-05-19 21:53:52,283 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: defer
+2021-05-19 21:53:52,283 INFO    SenderThread:640102 [sender.py:send_request_defer():298] handle sender defer: 9
+2021-05-19 21:53:52,384 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 21:53:52,384 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 21:53:52,486 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 21:53:52,486 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 21:53:52,561 INFO    Thread-12 :640102 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/config.yaml
+2021-05-19 21:53:52,587 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 21:53:52,588 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 21:53:52,690 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 21:53:52,690 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 21:53:52,781 INFO    Thread-14 :640102 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/output.log
+2021-05-19 21:53:52,792 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 21:53:52,792 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 21:53:52,856 INFO    Thread-13 :640102 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/wandb-summary.json
+2021-05-19 21:53:52,893 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 21:53:52,894 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 21:53:52,995 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 21:53:52,996 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 21:53:52,996 INFO    Thread-15 :640102 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/requirements.txt
+2021-05-19 21:53:53,097 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 21:53:53,097 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 21:53:53,199 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 21:53:53,199 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 21:53:53,251 INFO    Thread-16 :640102 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/files/conda-environment.yaml
+2021-05-19 21:53:53,300 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 21:53:53,301 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 21:53:53,402 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 21:53:53,402 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 21:53:53,503 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 21:53:53,504 DEBUG   SenderThread:640102 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 21:53:53,504 INFO    SenderThread:640102 [file_pusher.py:join():181] waiting for file pusher
+2021-05-19 21:53:53,505 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: get_summary
+2021-05-19 21:53:53,506 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: sampled_history
+2021-05-19 21:53:53,508 DEBUG   HandlerThread:640102 [handler.py:handle_request():121] handle_request: shutdown
+2021-05-19 21:53:53,508 INFO    HandlerThread:640102 [handler.py:finish():632] shutting down handler
+2021-05-19 21:53:54,283 INFO    WriterThread:640102 [datastore.py:close():258] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/Regression/house-price-preds/wandb/run-20210519_215152-2h8k0z5a/run-2h8k0z5a.wandb
+2021-05-19 21:53:54,504 INFO    SenderThread:640102 [sender.py:finish():925] shutting down sender
+2021-05-19 21:53:54,504 INFO    SenderThread:640102 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-19 21:53:54,504 INFO    SenderThread:640102 [file_pusher.py:join():181] waiting for file pusher
+2021-05-19 21:53:54,505 INFO    MainThread:640102 [internal.py:handle_exit():78] Internal process exited
